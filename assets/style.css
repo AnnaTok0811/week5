@@ -1,11 +1,13 @@
-
+body
+{font-family: Nexa-Trial, Geneva, Tahoma, sans-serif;
+}
 
 .header{
     display: flex;
     flex-direction:row;
     justify-content:space-around;
-    border: 2px dotted rgb(191, 127, 36);
     padding: 40px;
+    background-color: rgb(232, 231, 229); 
 }
 .text {
  
@@ -14,12 +16,8 @@
     margin-top: 20px;
     color:#063D85; 
 }
-a {
-    text-decoration: none;
-}
 
   
-
         .knopka1 {
         width: 150px;
         height: 50px;
@@ -29,83 +27,85 @@ a {
         margin-left: 20px;
         margin-top: 20px;
         margin-bottom: 20px;
-        background: linear-gradient(45.00deg, rgb(231, 128, 37),rgb(137, 51, 5));
-        -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-        font-family:Nexa-Trial, Geneva, Tahoma, sans-serif;
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 140%;
-        text-align: center;
-        border: solid 2px;
-        border-radius: 5%;
-        border-image: linear-gradient(45.00deg, rgb(231, 128, 37),rgb(137, 51, 5));
-        border-image-slice: 1;
-        padding: 10px;
+        background-color: azure;
 }
 .flex-container0{
     display: flex;
     width: 100%;
 }
+.osnova{
+  display: flex;
+  width: 100%;
+  height: 400px;
+  
+  
+
+}
 .flex-container-1{
     display: flex;
     width: 100%;
+   
 
 }
 .flex-container1{
     display: flex;
-    width: 100%;
-    border: 2px dotted green;
+    width: 30%;
     padding: 40px;
     justify-content:space-around;
+    background-color: rgb(140, 216, 194);
 }
 .flex-element1{
     width: 100%;
-    height: 300px;
+    height: 100%;
+    align-items:start;
     margin-right: 10px;
-    background: orange;
     font-size: 46px;
     text-align: center;
+   
 
 }
 
 .flex-container2 {
     display: flex;
-    width: 100%;
+    width: 70%;
     flex-direction:column;
-    border: 2px dotted green;
     padding: 40px;
-    justify-content:space-around;
+    justify-content:space-between;
+
+    background-color: antiquewhite;
   }
   
   .flex-element2 {
     width: 100%;
     height: 300px;
-    margin-right: 10px;
-    background: orange;
+    margin: 10px;
+    background: rgba(239, 199, 91, 0.903);
     font-size: 46px;
-    text-align: center;
+    text-align:center;
+    justify-content:space-between;
+    
   }
   .flex-container-footer{
     display: flex;
-    border: 2px dotted rgb(8, 8, 8);
     padding: 40px;
-    background-color: black;
+    background-color: rgb(232, 231, 229); 
     justify-content:space-around;
   }
   .flex-element4{
-    width: 100%;
+    width: 97%;
     height: 200px;
-    margin-top: 10px;
-    background: orange;
+    margin: 10px;
+    background: rgba(239, 199, 91, 0.903);
     font-size: 46px;
-    text-align: center;
-
+    text-align:center;
+    justify-content:space-around;
+    
   }
   .flex-element3{
     width: 300px;
     height: 100px;
     margin-right: 10px;
-    background: rgb(91, 89, 86);
+    background: rgb(243, 241, 240);
     font-size: 46px;
     text-align: center;
     flex-direction:row;
