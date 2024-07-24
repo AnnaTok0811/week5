@@ -92,13 +92,14 @@ body
     justify-content:space-around;
   }
   .flex-element4{
-    width: 97%;
+    width: 96%;
     height: 200px;
     margin: 10px;
     background: rgba(239, 199, 91, 0.903);
     font-size: 46px;
     text-align:center;
     justify-content:space-around;
+    
     
   }
   .flex-element3{
